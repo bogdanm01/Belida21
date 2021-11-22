@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+/* CSS Reset & Initial Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  line-height: 1.6;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0;
+  font-family: 'Open sans', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 1.25;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+}
