@@ -1,8 +1,10 @@
 .nav-container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
+/* Buttons */
 .btn {
   padding: 10px 20px;
   background-color: #f1c23e;
@@ -11,9 +13,52 @@
   display: inline-block;
   border-radius: 10px;
   font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffda72;
 }
 
 .btn-width .btn {
   width: 130px;
   margin-right: 12px;
+}
+
+/* Flexbox */
+.flex-columns {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  padding: 0 16px;
+}
+
+.flex-columns h1{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 2.6rem;
+}
+
+.flex-columns p {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.flex-column-left {
+  flex: 1;
+  padding: 30px;
+}
+
+.flex-column-right {
+  height: 100%;
+  width: 100%;
+  flex: 1.1;
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse;
 }
