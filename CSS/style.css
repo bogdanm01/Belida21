@@ -1,33 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/* CSS Reset & Initial Styling */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #333;
   line-height: 1.6;
+  scroll-behavior: smooth;
   height: 100%;
+  /* overflow-x: hidden; */
+}
+
+ul {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
-}
-
-p {
-  margin: 10px 0;
-  font-family: 'Open sans', sans-serif;
+  color: #333;
 }
 
 h1, h2 {
   font-weight: 300;
-  line-height: 1.25;
-  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px 0;
 }
 
 img {
+  width: 100%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.navbar {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  /* padding: 0 100px; */
+  z-index: 1;
+  height: 55px;
+}
+
+.navbar.top {
+  color: #fff;
+  background: transparent;
+  height: 70px;
+}
+
+.navbar nav ul {
+  display: flex;
+}
+
+.navbar li a {
+  color: #fff;
+  text-align: center;
+  
+}
+
+.navbar li {
+  margin-right: 30px;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar .logo {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  color: #333;
+  background-color: #fff;
+}
+
+.hero .content::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero .content {
+  display: flex;
+  position: relative;
+  /* max-width: 1300px; */
+  /* margin: 0 auto; */
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  background: url('/img/alexandre-van-thuan-mr9FouttLGY-unsplash.jpg') no-repeat center center/cover;
+}
+
+.hero .content .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 20px;
+}
+
+.hero .content .left h1 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 2.6rem;
+  
+}
+
+.hero .content .left p{
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.hero .content .right {
+  height: 100%;
   width: 100%;
 }
