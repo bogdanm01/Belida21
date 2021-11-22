@@ -41,7 +41,7 @@
       <div class="flex-column-left">
         <h1>More details</h1>
         <p>For us, 2021 is an important year; it is with great pride that we will be marking our anniversary – 30 years from the founding of our Department of General Linguistics in Belgrade.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi necessitatibus alias molestiae exercitationem magni reprehenderit quo provident temporibus modi.</p>
+        <p>Join us from december 3rd to december 4th at Faculty of Philology, University of Belgrade.</p>
       </div>
       <div class="flex-column-right"> </div>
   </div>
@@ -50,8 +50,9 @@
   <div class="flex-columns">
     <div class="flex-column-left">
       <h1>Get in touch</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae cum qui maxime ut ipsum quia quibusdam natus, sit quasi iste nihil! Deserunt cum aliquam vero corrupti quos odit, voluptatem pariatur.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi necessitatibus alias molestiae exercitationem magni reprehenderit quo provident temporibus modi.</p>
+      <p>You can contact us via email below</p>
+      <p>Email: belida@fil.bg.ac.rs</p>    
+      <button class="btn" onclick="openMailClient()">Send Mail</button>   
     </div>
     <div class="flex-column-right"> </div>
 </div>
@@ -60,8 +61,8 @@
   <p>BeLiDa 2021 | Built by <a href="https://github.com/bogdanm01" target="_blank" style="color:rgba(255, 255, 255, 0.55); text-decoration: none; font-weight: 500;">@bogdanm01</a></p>
 </footer>
   <script>
-    function contact() {
-      alert('Contact us at: info@mail.com');
+    function openMailClient() {
+      document.location = "mailto:"+'belida@fil.bg.ac.rs';
     }
 
     const navbar = document.getElementById('navbar');
