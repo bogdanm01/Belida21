@@ -120,6 +120,14 @@ img {
   background-size: 80%;
 }
 
+textarea{
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: #333;
+
+}
+
 footer {
   height: 60px;
   width: 100%;
