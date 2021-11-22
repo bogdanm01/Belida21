@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="CSS/utilities.css">
 </head>
 <body>
-  <header class="hero">
+  <header id="hero">
     <div class="nav-container">
       <div id="navbar" class="navbar top">
           <h1 class="logo">Belida</h1>
@@ -18,24 +18,60 @@
               <li><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact">Abstract</a></li>
             </ul>
           </nav>
         </div>
     </div>
-    <div class="content">
-        <div class="left">
+    <div class="flex-columns">
+        <div class="flex-column-left">
           <h1>Belgrade Linguistics Days</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae cum qui maxime ut ipsum quia quibusdam natus, sit quasi iste nihil! Deserunt cum aliquam vero corrupti quos odit, voluptatem pariatur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi necessitatibus alias molestiae exercitationem magni reprehenderit quo provident temporibus modi.</p>
+          <p>The Department of General Linguistics at the Faculty of Philology,<br> University of Belgrade, Serbia is pleased to announce its international conference on Linguistics. </p>
+          <p>BeLiDa 2021 aims to mark this important event by bringing together researchers, scientists and students to exchange and share their experiences, new ideas, and research results about all aspects of Language.</p>
           <div class="btn-width">
-              <a href="#industries" class="btn">Timetable</a>
-              <a href="" class="btn">Poster</a>
+              <a href="timetable.pdf" target="_blank" class="btn">Timetable</a>
+              <a href="img/A4 - 2.png" target="_blank" class="btn">Poster</a>
           </div>
         </div>
-        <div class="right">
-          
-        </div>
+        <div class="flex-column-right"></div>
     </div>
   </header>
+  <section id="about">
+    <div class="flex-columns flex-row-reverse">
+      <div class="flex-column-left">
+        <h1>Something about this</h1>
+        <p>For us, 2021 is an important year; it is with great pride that we will be marking our anniversary – 30 years from the founding of our Department of General Linguistics in Belgrade.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi necessitatibus alias molestiae exercitationem magni reprehenderit quo provident temporibus modi.</p>
+      </div>
+      <div class="flex-column-right"> </div>
+  </div>
+  </section>
+<section id="contact">
+  <div class="flex-columns">
+    <div class="flex-column-left">
+      <h1>Get in touch</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae cum qui maxime ut ipsum quia quibusdam natus, sit quasi iste nihil! Deserunt cum aliquam vero corrupti quos odit, voluptatem pariatur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi necessitatibus alias molestiae exercitationem magni reprehenderit quo provident temporibus modi.</p>
+    </div>
+    <div class="flex-column-right"> </div>
+</div>
+</section>
+<footer>
+  <p>BeLiDa 2021 | Built by @bogdanm01</p>
+</footer>
+  <script>
+    function contact() {
+      alert('Contact us at: info@mail.com');
+    }
+
+    const navbar = document.getElementById('navbar');
+    window.onscroll = function () {
+      if (window.pageYOffset > 100) {
+        navbar.classList.remove('top');
+      } else {
+        navbar.classList.add('top');
+      }
+    }
+  </script>
 </body>
 </html>
