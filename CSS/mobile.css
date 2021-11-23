@@ -12,6 +12,10 @@
   backdrop-filter: blur(8px);
 }
 
+.navbar li {
+  margin-right: 15px;
+}
+
 #hero {
   margin-top: 60px;
   height: auto;
