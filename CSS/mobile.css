@@ -1,0 +1,81 @@
+.nav-container {
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar.top {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+#hero {
+  margin-top: 60px;
+  height: auto;
+}
+
+#about {
+  height: auto;
+}
+
+#about .flex-column-left {
+  padding: 10px 0;
+  height: 75%;
+}
+
+#contact {
+  height: auto;
+  padding: 20px 0;
+  padding-bottom: 90px;
+}
+
+#contact .flex-columns .flex-column-left p {
+  text-align: left;
+}
+
+#contact .flex-columns .flex-column-left {
+  margin-top: 0;
+}
+
+#contact .flex-column-left {
+  padding: 0px;
+}
+
+button {
+  width: 100%;
+  height: 45px;
+}
+
+.btn-width {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-width .btn {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.flex-columns .flex-column-right {
+  display: none;
+}
+
+.flex-columns {
+  flex-direction: column-reverse;
+}
+
+.flex-columns h1{
+  text-align: center;
+}
+
+.flex-columns p{
+  text-align: justify;
+}
+
+
+
