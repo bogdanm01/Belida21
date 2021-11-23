@@ -83,8 +83,6 @@ img {
 /* Hero Section*/
 #hero {
   height: 100%;
-  
-  
 }
 
 #hero .flex-columns .flex-column-left{
@@ -116,10 +114,18 @@ img {
   background-size: contain;
 }
 
+#contact .flex-columns {
+  align-items: flex-start;
+}
+
 #contact .flex-columns .flex-column-right {
   background: url('../img/email-campaign.png') no-repeat center center;
   padding: 60px;
   background-size: 80%;
+}
+
+#contact .flex-columns .flex-column-left {
+  margin-top: 80px;
 }
 
 textarea{
@@ -140,4 +146,5 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: 14px;
+  border-top: 2px solid #D5A92F;
 }
