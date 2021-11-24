@@ -36,8 +36,6 @@
   padding-bottom: 90px;
 }
 
-
-
 #contact .flex-columns .flex-column-left p {
   text-align: left;
 }
@@ -88,5 +86,3 @@ button {
   flex-direction: row;
   width: 100%;
 }
-
-

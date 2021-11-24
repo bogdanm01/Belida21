@@ -93,6 +93,7 @@ img {
   background: url('../img/education.png') no-repeat center center;
   height: 80%;
   flex: 1.2;
+  background-size: 85%;
 }
 
 /* About Section*/
@@ -103,6 +104,7 @@ img {
 
 #about .flex-columns .flex-column-right {
   background: url('../img/group-therapy.png') no-repeat center center;
+  background-size: 90%;
 }
 
 /* Contact Section */
@@ -128,12 +130,11 @@ img {
   margin-top: 80px;
 }
 
-textarea{
+textarea {
   display: block;
   margin-bottom: 15px;
   padding: 10px;
   color: #333;
-
 }
 
 footer {
