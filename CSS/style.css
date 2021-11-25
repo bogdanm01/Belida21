@@ -87,6 +87,7 @@ img {
 
 #hero .flex-columns .flex-column-left{
   padding: 30px 0px;
+  /* margin-top: 5%; */
 }
 
 #hero .flex-columns .flex-column-right {
@@ -127,14 +128,8 @@ img {
 }
 
 #contact .flex-columns .flex-column-left {
-  margin-top: 80px;
-}
-
-textarea {
-  display: block;
-  margin-bottom: 15px;
-  padding: 10px;
-  color: #333;
+  margin-top: 12%;
+  padding: 0;
 }
 
 footer {

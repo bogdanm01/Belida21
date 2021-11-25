@@ -78,3 +78,19 @@ button {
 .flex-row-reverse{
   flex-direction: row-reverse;
 }
+
+.icons {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.icons img {
+ width: 100px;
+ margin-right: 25px;
+}
+
+.icons #ol-logo {
+  /* filter: saturate(0); */
+}
